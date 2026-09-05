@@ -1,2 +1,9 @@
 .venv/
 .DS_Store
+
+# Block VS Code extension temporary files
+tempCodeRunnerFile.py
+__pycache__/
+
+# Block large reading materials/PDFs
+*.pdf
