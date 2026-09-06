@@ -12,5 +12,7 @@ __pycache__/
 
 # Block secret API keys and environment variables
 .env
+#Block the practice folder
+Practice/
 .........
 
