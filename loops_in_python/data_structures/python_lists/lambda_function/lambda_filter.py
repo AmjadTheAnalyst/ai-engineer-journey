@@ -22,3 +22,10 @@ numbers = [14, 21, 35, 42, 57, 68, 73, 80]
 #return only even numbers
 # lambda n : n%2 == 0
 print(list(filter (lambda n : n%2 == 0, numbers)))
+
+#problem 5
+scores = [12, 25, 34, 50, 55, 61, 70, 84, 95]
+#extract only the numbers that are multiples of 5
+#logic n % 5 == 0
+lambda n: n% 5 == 0
+print(list(filter (lambda n: n% 5 == 0, scores)))
