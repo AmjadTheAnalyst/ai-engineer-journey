@@ -16,3 +16,13 @@ squared_numbers = [
     if n % 2 == 0
 ]
 print(squared_numbers)
+
+#Problem 2
+names = ["alice", "bob", "charlie"]
+#convert them all into upper case
+upper_names = [
+    name.upper()
+    for name in names
+    #so we dnt need to filter the data, as we convert all
+]
+print (upper_names)
