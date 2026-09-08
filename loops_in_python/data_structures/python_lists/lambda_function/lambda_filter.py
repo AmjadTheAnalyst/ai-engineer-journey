@@ -29,3 +29,14 @@ scores = [12, 25, 34, 50, 55, 61, 70, 84, 95]
 #logic n % 5 == 0
 lambda n: n% 5 == 0
 print(list(filter (lambda n: n% 5 == 0, scores)))
+
+#problem 6
+characters = ['a', 'B', 'c', 'D', 'e', 'F', 'g', 'H']
+#return only uppercase letters
+print(list(filter(str.isupper, characters)))
+
+#problem 7
+ages = [5, 12, 13, 16, 19, 20, 25, 14]
+#return only TEEN AGES
+#custom logic age >= 13 or age <=19
+print(list(filter(lambda age:age >= 13 and age <=19, ages )))
