@@ -35,4 +35,38 @@ print(delivery_system[1])
 ############# update Methodologies ############
 # a[index number] = new value
 
-                    
+############# sortation Methodologies ############
+a = [1,7,8,0,3,7,5,4,6,7]
+print(a.sort())
+#it will return none because sort() itself does not sorted list, its only modifies original list
+#Run the sorting mechanism on its own line, and then print the list a.
+a = [1, 7, 8, 0, 3, 7, 5, 4, 6, 7]
+a.sort()  # This modifies 'a' behind the scenes
+
+print(a)
+
+#If you want to sort and print on a single line, 
+# use Python's built-in sorted() function. Unlike .sort(), 
+# sorted() creates and returns a brand-new sorted copy of the list.
+a = [1, 7, 8, 0, 3, 7, 5, 4, 6, 7]
+
+# sorted() returns the new list directly to the print function
+print(sorted(a))
+# Output: [0, 1, 3, 4, 5, 6, 7, 7, 7, 8]                 
+
+#how to sort inverse
+print(sorted(a, reverse = True))
+
+
+
+########## copy list ############
+a = [1,2,3,4,5,6]
+a.copy() #best for non-nested lists (shallow copy)
+a.deepcopy() #best for nested list in order to copy inner lists aswell
+
+
+
+############# how to combine lists ########
+# +, *
+# l1+l2 concatinate both lists
+# l1*2 
