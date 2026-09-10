@@ -40,3 +40,11 @@ ages = [5, 12, 13, 16, 19, 20, 25, 14]
 #return only TEEN AGES
 #custom logic age >= 13 or age <=19
 print(list(filter(lambda age:age >= 13 and age <=19, ages )))
+
+
+# Your starting list
+ages = [14, 21, 17, 18, 32, 16, 45, 12, 19]
+"""The Challenge: Filter the AdultsYou are given a list of ages. 
+Write a Python program to extract only the ages that are 18 or older."""
+print(list(filter (lambda age : age >= 18, ages)))
+
